@@ -1,1 +1,70 @@
-// comment
+const nouns = [
+    "apple",
+    "ball",
+    "cat",
+    "dog",
+    "elephant",
+    "flower",
+    "guitar",
+    "house",
+    "island",
+    "jacket",
+    "kite",
+    "lion",
+    "mountain",
+    "notebook",
+    "ocean",
+    "pencil",
+    "queen",
+    "robot",
+    "sun",
+    "tree"
+  ];
+
+  const adjectives = [
+    "beautiful",
+    "quick",
+    "lazy",
+    "bright",
+    "dark",
+    "happy",
+    "sad",
+    "loud",
+    "silent",
+    "strong",
+    "weak",
+    "tall",
+    "short",
+    "brave",
+    "calm",
+    "curious",
+    "gentle",
+    "kind",
+    "proud",
+    "wise"
+  ];
+
+const greetingVerbs = [
+  "wave",
+  "nod",
+  "salute",
+  "bow",
+  "shake hands",
+  "hug",
+  "smile",
+  "wink",
+  "high-five",
+  "greet",
+  "acknowledge",
+  "address",
+  "introduce",
+  "welcome",
+  "hail",
+  "beckon",
+  "clap",
+  "cheer",
+  "send regards",
+  "kiss"
+];
+
+// greeting (array) + UserName (input) + you are a adjective() + noun ()!
