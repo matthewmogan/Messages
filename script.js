@@ -1,4 +1,4 @@
-const nouns = [
+let nouns = [
     "apple",
     "ball",
     "cat",
@@ -21,7 +21,7 @@ const nouns = [
     "tree"
   ];
 
-  const adjectives = [
+  let adjectives = [
     "beautiful",
     "quick",
     "lazy",
@@ -44,27 +44,37 @@ const nouns = [
     "wise"
   ];
 
-const greetingVerbs = [
-  "wave",
-  "nod",
-  "salute",
-  "bow",
-  "shake hands",
-  "hug",
-  "smile",
-  "wink",
-  "high-five",
-  "greet",
-  "acknowledge",
-  "address",
-  "introduce",
-  "welcome",
-  "hail",
-  "beckon",
-  "clap",
-  "cheer",
-  "send regards",
-  "kiss"
-];
+let salutations = [
+    "Hello",
+    "Hi",
+    "Hey",
+    "Good morning",
+    "Good afternoon",
+    "Good evening",
+    "Greetings",
+    "Salutations",
+    "Howdy",
+    "What's up",
+    "Welcome",
+    "Hi there",
+    "Good day",
+    "Good to see you",
+    "Hey there",
+    "How's it going",
+    "Nice to meet you",
+    "How are you",
+    "Yo",
+    "Pleasure to meet you"
+  ];
+  
 
 // greeting (array) + UserName (input) + you are a adjective() + noun ()!
+
+function randomMessage(username = "Stranger", greeting=["Hello"] , adj =["beautiful"], noun = ["apple"]){
+    let x = Math.floor(Math.random()*greeting.length)
+    let y = Math.floor(Math.random()*adj.length)
+    let z = Math.floor(Math.random()*noun.length)
+    console.log(`${greeting[x]}, ${username}! you are a ${adj[y]} ${noun[z]}!`)
+}
+
+randomMessage("Mr. Smith",salutations,adjectives,nouns )
